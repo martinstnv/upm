@@ -69,8 +69,11 @@ const Items = () => {
             {/* Iterating through the items */}
             {items && items.length > 0 && items.map((item, key) => (
                 <Space direction="vertical" size={16} key={key} className={classes.Space}>
-                    <Card hoverable title={item.name} extra={<Button onClick={() => onOpenModal(item)}>Open</Button>} className={classes.Card}>
-                        <p>{item.content.description}</p>
+                    <Card
+                        hoverable
+                        title={item.name}
+                        extra={<Button onClick={() => onOpenModal(item)}>Open</Button>}
+                        className={classes.Card}>
                     </Card>
                 </Space>
 
