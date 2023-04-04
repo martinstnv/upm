@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: dodgerblue;
+}
+
+a:visited {
+  color: dodgerblue;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+a:active {
+  color: dodgerblue;
+}
+
+.half-row {
+  width: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+div#root {
+  height: 100%;
+}
+
+div.app {
+  height: 100%;
+}

@@ -1,0 +1,13 @@
+.Logo {
+    margin: 15px;
+    padding: 0px 15px;
+    color: aliceblue;
+}
+
+.Layout {
+    height: 100%;
+}
+
+.Content {
+    margin: 15px;
+}
