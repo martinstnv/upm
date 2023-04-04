@@ -82,7 +82,7 @@ const Items = () => {
                 !!open && selectedItem && <Modal
                     open={open}
                     onCancel={onCloseModal}
-                    width={45}
+                    width="45%"
                     cancelButtonProps={{ style: { display: 'none' } }}
                     okButtonProps={{ style: { display: 'none' } }}
                 >

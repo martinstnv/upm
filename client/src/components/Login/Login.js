@@ -34,7 +34,7 @@ const Login = () => {
 
     return <Modal
         visible={true}
-        width={45}
+        width="45%"
         cancelButtonProps={{ style: { display: 'none' } }}
         okButtonProps={{ style: { display: 'none' } }}
         closable={false}
