@@ -78,8 +78,6 @@ const Create = () => {
             .then(res => {
 
                 setTypes(res.data);
-                // const [defaultSelectedType] = res.data.filter(type => type.name === 'note');
-                // if (defaultSelectedType) setSelectedType(defaultSelectedType);
 
                 ReactDOM.render(<Expire delay={5000}>
                     <Alert message={`[${moment().format('YYYY-MM-DD HH:mm')}] - Up to date.`} type="success" />
@@ -121,9 +119,7 @@ const Create = () => {
                         className={classes.Form}
                         ref={formRef}
                         schema={schema}
-                        // uiSchema={uiSchema}
                         onSubmit={onSubmit}
-                        // onError={onFinishFailed}
                         showErrorList={false}
                     >
                         <Button style={{ width: '50%' }} type="primary" htmlType="submit"> Create </Button>

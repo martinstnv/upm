@@ -1,3 +1,5 @@
+# UPM - The Unencrypted Password Manager
+
 ## Prerequisites
 
 - NodeJS
